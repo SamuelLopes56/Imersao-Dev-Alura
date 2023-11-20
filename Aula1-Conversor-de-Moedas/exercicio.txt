@@ -1,0 +1,7 @@
+Claro! Vou te propor um exercício relacionado ao conteúdo da aula.
+
+Exercício: Modifique o código apresentado na aula para criar um conversor de moedas que converta valores em real para dólar, euro e libra esterlina. Além disso, adicione uma linha ao projeto para exibir o valor em bitcoin.
+
+Dica: Você pode declarar variáveis para armazenar as cotações dessas moedas e utilizar operações matemáticas para realizar as conversões. Lembre-se de utilizar a função "toFixed()" para formatar o valor final com duas casas decimais.
+
+Tente resolver o exercício e, se tiver alguma dúvida ou quiser compartilhar seu código para que eu possa te ajudar, é só me falar!
