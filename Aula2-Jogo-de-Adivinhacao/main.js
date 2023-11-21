@@ -1,6 +1,15 @@
-let valorEmDolar = 30;
-let cotacaoDoDolar = 5.32;
+let numeroSecreto = parseInt(Math.random() * 1001);
 
-let valorEmReal = valorEmDolar * cotacaoDoDolar;
+while (chute != numeroSecreto) {
+    var chute = prompt('Digite um número entre 0 e 1000');
 
-alert(`R$ ${valorEmReal.toFixed(2)}`);
+    if (chute == numeroSecreto){
+        alert('Acertou!');
+    } else if (chute > numeroSecreto){
+        alert('Errou... o número secreto é menor')
+    } else if (chute < numeroSecreto){
+        alert('Errou... o número é maior');
+    } else{
+        alert('Você digitou algo inválido!');
+    }
+}
